@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Random Stuff</title>
+        <meta charset="utf-8">
+        <style>
+            /*body decor.*/
+            body {
+                background-color: rgb(230, 230, 255);
+            }
+                
+            /*story decor overall*/
+            .story {
+                font-style: italic;
+                font-family: "Garamond";
+            }
+            
+            /*key img edit*/
+            #key-img {
+                width: 20%;
+                border: 4px black dashed;
+                float: right;
+            }
+            
+            /*story decor*/
+            .story-desc {
+                width: 20%;
+                height: 100px;
+                overflow: auto;
+                background-color: rgb(230, 230, 230);
+                padding: 8px;
+                border: 3px black dashed;
+            }
+
+            /*epilogue decor*/
+            .epilogue {
+                color: blue;
+                font-family: cursive;
+            }
+            
+            /*crusty decor*/
+            .epilogue strong {
+                color: yellow;
+                background-color: black;
+                border: 2px white solid;
+                padding: 2px;
+                text-align: center;
+            }
+            
+            /*decor title*/
+            #title {
+                text-decoration: underline;
+                font-family: "Garamond";
+            }
+            
+            /*green var*/
+            .green {
+                color: rgb(0, 190, 0)
+            }
+            
+            /*link pseudo classes*/
+            a:hover {
+                background-color: rgb(200, 200, 255);
+            }
+            
+            a:visited {
+                color: red;
+            }
+            
+            a:active {
+                color: green;
+            }
+            
+
+            
+            /*fact image decor*/
+            .fact-image {
+                width: 20%;
+                margin: 8px;
+                border: 3px black dotted;
+                
+            }
+            
+            /*fact font*/
+            #facts {
+                font-family: "Cambria", serif;
+            }
+            
+            /*table of cont. decor.*/
+            #table-of-contents {
+                float: right;
+                text-align: center;
+                background-color: rgb(230, 230, 230);
+                padding: 6px;
+                border: 3px black solid;
+                margin: 10px;
+                
+            }
+            
+            /*"report" button*/
+            #report-button {
+                background-color: white;
+                border: 3px black solid;
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                font-family: "Rockwell";
+            }
+            
+            /*snippet images*/
+            .snippet-img {
+                border: 4px ridge white;
+                margin: 10px;
+                width: 20%;
+            }
+        </style>
+    </head>
+    <body>
+        <!--title-->
+        <h1 id="title">Random Stuff.</h1>
+        <p>I'm going to be telling you random stuff cause I don't know why.</p>
+        <!--table of contents-->
+        <div id="table-of-contents"><h2>Table of Contents</h2>
+            <!--facts-->
+            <h3>Facts Section</h3>
+            <a href="#fact-1">Fact #1</a><br>
+            <a href="#fact-2">Fact #2</a><br>
+            <a href="#fact-3">Fact #3</a><br>
+            <a href="#fact-4">Fact #4</a><br>
+            <a href="#fact-5">Fact #5</a><br><br>
+            <h3>Snippets Section</h3>
+            <a href="#snip-1">Snip. #1</a><br>
+            <a href="#snip-2">Snip. #2</a><br>
+        </div>
+        
+        <img  id="key-img" src="https://media.istockphoto.com/id/93536995/photo/golden-key-in-keyhole.jpg?s=612x612&w=0&k=20&c=1DcWw4uPVtqF39BDZfY0ZfgRjetTppw2MwT7H2pAUls=" alt="Golden Key">
+        <!--story-->
+        <h2 class="story">The Story</h2>
+        <p><span class="story">(Scroll down for story)</span></p>
+        <p class="story story-desc">In a cavern in the deep, dark, unlocated forest, Felix found a golden chest, but there was a keyhole. He had to find the key quick, or else a cage full of venomous cobras would open up, killing Felix. There was a skeleton near the wall of the cave. There was 1:55 left on the clock. The skeleton held the key, and it was inside it's ribcage. So Felix reached into the ribcage, took the key, and inserted it into the chest. He twisted it, and it opened. He pulled out a scroll, and guess what it said. Random Facts written at the top. By the time Felix was finished reading the scroll, the cobras dropped down and killed him.</p>
+        
+        <!--report-->
+        <button id="report-button">If you don't like the webpage, click here.</button>
+        
+        <!--epilogue-->
+        <h3 class="epilogue">241 years later...</h3>
+        <p class="epilogue">Camp Leader Mr. Pam found the scroll located in the cave, <strong> crusty</strong>   with venom. He then he posted it on Twitter. This how I found these amazing random facts and other stuff!</p>
+        
+        <!--list of facts-->
+        <div id="facts"><h2>Random Facts</h2>
+        <p>This is the first section of random stuff. I hope you enjoy hearing about these five random, surprising, facts.</p>
+        <ol>
+            <!--fact 1-->
+            <li id="fact-1"><strong>You might be drinking water older than the solar system.</strong> <br><br>
+                That is pretty <span class="disgusting">disgusting</span>. Think about drinking water as old as the entire planet you live on!<br> And yet this water barely harms us! When you pour a glass of water, you could be drinking water that was <br>there before the solar system was made?! That doesn't make sense to me at all!<br>
+            <img class="fact-image" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/7909/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg" alt="water"></li>
+            <!--fact 2-->
+            <li id="fact-2"><strong>Most oranges are actually green.</strong><br><br>
+            That is <em>incredibly</em> odd. They are literally called oranges, so why are most of them <em class="green">GREEN</em>?<br> I'm very confused, and you probably are too. Oranges are such <strong>frauds</strong>.<br>
+                <img class="fact-image" src="https://fruitguys.com/wp-content/uploads/2011/04/citrus-regreening-bigstock-92168057-1424x1080px-RESIZE.jpg" alt="green oranges">
+            </li>
+            <!--fact 3-->
+            <li id="fact-3"><strong>Most mosquitos are attracted to people that just ate bananas.</strong><br><br>
+                Oh wow. You just changed my life. <em>*applause*</em> But why bananas? Are they attracted to the potassium? Why?<br> 
+            <img class="fact-image" src="https://images.heb.com/is/image/HEBGrocery/000377497?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0" alt="banana bunch"></li>
+            <!--fact 4-->
+            <li id="fact-4"><strong>There might be life on mars.</strong><br><br>
+                Holy crap. If there was life on mars, it better be something like tardigrades and small animals but humanoid aliens?<br> The sound of that just makes me <em>shiver</em>. I've never believed in aliens before. Have you?<br>
+                <img class="fact-image" src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="mars"></li>
+            <!--fact 5-->
+            <li id="fact-5"><strong>Chocolate chips originated from Chocolate chip cookies.</strong><br><br>
+                WHAT? That's absurd! That's like saying that the egg was originated from the omelette! I... I... I... <em>I'm speechless.</em><br>
+                <img class="fact-image" src="https://joyfoodsunshine.com/wp-content/uploads/2018/02/best-chocolate-chip-cookies-recipe-1.jpg" alt="chocolate chip cookies"></li>
+            
+            </ol>
+        </div>
+        <div id="snippets">
+            <h2>Random Snippets</h2>
+            <p>Overview: Well some of you smooth brained people don't know what a snippet is! Well a snippet(SNI-puht) is a small text. <br>
+                (P.S This section of random stuff has been framed in gold because of how ancient and important it is.)</p>
+            <ul>
+                <li id="snip-1"> Snippet 1: If peanut butter is made of peanuts, what is jam made out of? My jam doesn't say anything! It just says jam and that's it! I'm afraid to assume, or else my jam's gonna get me <em>cancelled</em>! I'll make sure to delete Twitter soon, or else he- she- they- it will get mad of me assuming that they are food! Wait a sec, let me check my notifications... Guys I'm cancelled.<br>
+                <img class="snippet-img" src="file:///home/chronos/u-198e7542eec22a59120d9eedb9a919197f3c7ecb/MyFiles/Downloads/jam.webp" alt="jam"><br> </li>
+                <li id="snip-2"> Snippet 2: So in my opinion, any number divided by zero is infinity, because you can fit infinite zeroes in any integer. That's like giving zero cookies to any number of friends. But why would you want to invite your friends over if there's nothing to do? Why would you invite them over for cookies first of all? Has all the Walmarts closed down? Perhaps you shall go to Target or Costco or something- but anyways, I think any number divided by zero is infinity. BUT HO- (This snippet has been cut off due to lack of recording time.)<br>
+                    <img class="snippet-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAMAAADQI8A6AAAAaVBMVEX///8BAQEAAACWlpaBgYH8/Pzr6+vh4eHa2tr39/fPz8/Kysq6urrk5OSampr09PR3d3eysrJmZmajo6M7OztCQkJdXV3ExMQVFRULCwssLCyQkJBQUFCHh4ckJCQfHx9vb280NDRJSUkYTbIaAAAD3ElEQVR4nO1baZOqQAyEKKcHNyLe/v8f+WaAdWESUKsYsvVqei3LteZD05mQTActy8DAwMDAwMDAwOA/QeQfkuwSp2kax6cs2XgOG5XA35f5FQaoi3TrclDyVueOgv1C98V9uygTx3LCsuUB8tW9vT4D3JLIWk4j7z5UpQ9oVSrCpcgEq1Eu/ajdo0XYeHLP9GODgiX/xCv3FmBzqN5J81LouNHOJut28Dt1WkIHzWy2H0rTCVTp3dDJV2ykPjuNbPwj0LGhgtW+lYE2Nm7+nTaNPidtdGIYE2NcHah8TWwOX26cTp5SDxvnQQkAdq+ek0ppyvYtoc0PmfpxVKv775pUB5vgTNEBiJMul6PNqiAIia903Jw3bTD68ZBkBhs12tZdxAYLYw10YnThoq1B2yKIsUAAGuigKi56GuKW65za/T1YOH+0fOKiXbLjK/HC1ex09iqd0Wt2H2jlffZGda0Ga3yDnsBWo+rOzCZQQzBRq10k5G3uui4ioKhzHl+MtjLM3abuKvWKs/HFNVJy7jLqKe36ZCWqkTpz0/FBxUTbiZNwbjq7eD3EZXx3uojNUWeL+g4JSvTH3In+BRxU+nU2zG+RodIPFz42HlHcEiYujuVfiQaMLVZe8XNm7gVr4gaumY16Q27EWdYM+0WY/5zE+qW/WMboUeA0Z2aMqeqmE9tehvfUqXnYJOQxiyvLV/SRWc+h7y0uMMjwV7COSxiECF1/jCIlkpzBg1+DWsXbf2G/PJfWoyO1uXBoQ+eUoKPP+ZqAfyNsAi42jkPZKDJSLPumSSqkjqDDUxt8YhO3Gc6CnCwN1YEjp6SdaqtNhT19CtOJ6Elpc/N4tJFes1qnAG66nO03cKwzZZUysWnSClCd0j9UG0OG3AG2XtQirW+mdquBi0Y4YPOFihhT6JrPfADHilFDynbEk8DWCTA6OXgYqWUa8ilE36WOcPiynJhGct4Cu1PwQJ2Kces0nuRQnSsjG1EilHadyx5osccW6d+iw5nnRLAYHdvWQR6C52jVITythjgxdewGBgb6Ebgu4/xsCCeJy+ezXMsmme/Z6Q7u/veWnLGMQvrwi5eDK1rBnLP5EgiPfQMX4MpmFkh4j0FzKt5rznil+JjF2GFsKPuWL1x3Yg4Bay42uwdlC/IMPgVC/CAhoy8oLVxCHbZz6JYci2h/vH0Mf0ydkHT/2W7MbkFt5SdTVe+sOFUdlgFfQ8cj1LEZizqSR8fDrp8jUicSvA6G5eWDx+3hzNx/RelrLCt/kcVLRsA55N1vAKrzhr1zl2eHMIvTdJ0Y88LAwMDAwMDAwOD/wj/DLCPlN6IrmwAAAABJRU5ErkJggg==" alt="question mark"></li>
+                    
+                
+            </ul>
+                `   
+        <script>
+            var buttonEl = document.getElementById("report-button");
+            
+            var onButtonClick = function() {
+                buttonEl.style.backgroundColor = "black";
+                buttonEl.style.color = "white"; 
+                buttonEl.innerHTML = "Your report has been sended.";
+            };
+            
+            buttonEl.addEventListener("click", onButtonClick);
+        </script>
+    </body>
